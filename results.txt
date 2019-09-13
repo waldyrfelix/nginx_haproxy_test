@@ -1,0 +1,12 @@
+
+Mono thread server
+Time taken for tests:   16.246 seconds
+Requests per second:    6155.35 [#/sec] (mean)
+Time per request:       10.397 [ms] (mean)
+-------------------------------------------------
+
+Clustered server
+Time taken for tests:   13.760 seconds
+Requests per second:    7267.52 [#/sec] (mean)
+Time per request:       8.806 [ms] (mean)
+-------------------------------------------------
