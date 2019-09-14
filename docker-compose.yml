@@ -1,0 +1,35 @@
+version: '2.1'
+
+services:
+  load-balance:
+    image: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 3000:3000
+    command: [nginx, '-g', 'daemon off;']
+    depends_on:
+      - node-api-1
+      - node-api-2
+      - node-api-3
+      - node-api-4
+      - node-api-5
+      - node-api-6
+      - node-api-7
+      - node-api-8
+  node-api-1:
+    image: node-api-monothread
+  node-api-2:
+    image: node-api-monothread
+  node-api-3:
+    image: node-api-monothread
+  node-api-4:
+    image: node-api-monothread
+  node-api-5:
+    image: node-api-monothread
+  node-api-6:
+    image: node-api-monothread
+  node-api-7:
+    image: node-api-monothread
+  node-api-8:
+    image: node-api-monothread
