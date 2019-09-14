@@ -28,11 +28,5 @@
     "country_code": "99",
     "region_code": "99",
     "phone": "991383876",
-    "financialsecurity_id": "6mka7o0ad0z8g5n4",
-    "img_selfie": "https://s3.amazonaws.com/wallet-v2/corinthians/public/compliance_5c37b117eb418.jpg",
-    "img_selfie_with_document": "https://s3.amazonaws.com/wallet-v2/corinthians/public/compliance_5c38878a3466d.jpg",
-    "img_document_front": "https://s3.amazonaws.com/wallet-v2/corinthians/public/compliance_5c38878a51ee8.jpg",
-    "img_document_back": "https://s3.amazonaws.com/wallet-v2/corinthians/public/compliance_5c38878a63261.jpg",
-    "img_proof_of_residence": "https://s3.amazonaws.com/wallet-v2/corinthians/public/compliance_5c38878a6ceb4.jpg",
-    "img_cnpj": null
+    "financialsecurity_id": "6mka7o0ad0z8g5n4"
 }
